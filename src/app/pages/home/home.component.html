@@ -9,7 +9,7 @@
     >
       <code>scrollPositionRestoration: 'enabled'</code>
     </a>
-    in the routing module.
+    in the root routing module.
   </p>
   <p>
     However, if you set
@@ -19,11 +19,11 @@
     >
       <code>scroll-behavior: smooth</code>
     </a>
-    on the <code>html</code> element in CSS, this behavior can be weird and
-    sometimes it doesn't scroll to the top when changing routes too quickly. For
-    this reason, it would be a good idea <strong>not</strong> to enable smooth
-    scrolling in CSS. When the user navigates to a different page, more often
-    than not, we don't want to have smooth scrolling to the top.
+    on the <code>&lt;html&gt;</code> element in CSS, this behavior can be weird
+    and sometimes it doesn't scroll to the top when changing routes too quickly.
+    For this reason, it would be a good idea <strong>not</strong> to enable
+    smooth scrolling in CSS. When the user navigates to a different page, more
+    often than not, we don't want to have smooth scrolling to the top.
   </p>
   <p>
     But what if we want smooth scrolling in the case of anchor links? We can
@@ -31,7 +31,7 @@
   </p>
 </section>
 <nav>
-  <strong>Jump to: </strong>
+  <strong>Jump to:</strong>
   <ul>
     <li><a appSmoothScroll href="#section-1">Section 1</a></li>
     <li><a appSmoothScroll href="#section-2">Section 2</a></li>

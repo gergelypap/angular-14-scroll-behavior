@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { SmoothScrollDirective } from '@directives/smooth-scroll.directive';
+import { SmoothScrollDirective } from '../../directives/smooth-scroll.directive';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
