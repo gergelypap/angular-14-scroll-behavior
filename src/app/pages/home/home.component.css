@@ -1,0 +1,5 @@
+section {
+  /* Extra offset for the anchor scrolling. */
+  padding-top: calc(var(--navbar-height) + 1rem);
+  margin-top: calc(-1 * (var(--navbar-height) + 1rem));
+}

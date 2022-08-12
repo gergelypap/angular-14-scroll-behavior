@@ -1,0 +1,15 @@
+header {
+  position: sticky;
+  inset: 0 0 auto;
+  background-color: #ccc;
+  width: 100%;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+main {
+  padding: 1rem;
+}
